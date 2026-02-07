@@ -5812,6 +5812,7 @@ dependencies = [
  "dioxus-signals",
  "dioxus-stores-macro",
  "generational-box",
+ "indexmap 2.13.0",
 ]
 
 [[package]]
