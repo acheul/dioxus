@@ -218,6 +218,15 @@ impl MountedData {
         self.inner.scroll(coordinates, behavior)
     }
 
+    #[doc(alias = "scrollBy")]
+    pub fn scroll_by(
+        &self,
+        coordinates: PixelsVector2D,
+        behavior: ScrollBehavior,
+    ) -> Pin<Box<dyn Future<Output = MountedResult<()>>>> {
+        self.inner.scroll_by(coordinates, behavior)
+    }
+
     /// Set the focus on the element
     #[doc(alias = "focus")]
     #[doc(alias = "blur")]
