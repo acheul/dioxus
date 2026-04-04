@@ -3,6 +3,7 @@ mod deref;
 pub mod hashmap;
 pub mod index;
 pub mod indexmap;
+pub mod hashbrown;
 mod option;
 mod result;
 mod slice;

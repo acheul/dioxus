@@ -14,7 +14,8 @@ dioxus-core = { workspace = true }
 dioxus-signals = { workspace = true }
 dioxus-stores-macro = { workspace = true, optional = true }
 generational-box.workspace = true
-indexmap = { version = "2.13.0" }
+indexmap = { version = "2.13.1" }
+hashbrown = { version = "0.16.1" }
 
 [dev-dependencies]
 dioxus = { workspace = true }
